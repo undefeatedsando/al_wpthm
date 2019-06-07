@@ -1,0 +1,346 @@
+/*
+* This CSS includes the appearence of the content.
+* Like text fonts, images, headings etc.
+*/
+
+
+
+/*******************************************************************************
+*********************** Headings ***********************************************
+********************************************************************************/
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+	color: #444;
+	margin: 0 0 5px 0;
+}
+
+#content h1{
+	font-size: 45px;
+	line-height: 50px;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+    padding:10px 0 0px 0;
+}
+#page_title{
+	border-bottom: 2px solid #F1F2F4;
+}
+#content h2{
+	font-size: 40px;
+	line-height: 45px;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+}
+#content h3{
+	font-size: 15px;
+	line-height: 20px;
+}
+#content h4{
+	line-height: 16px;
+	font-size: 13px;
+}
+
+/*******************************************************************************
+*********************** LINKS ***********************************************
+********************************************************************************/
+
+a{
+	color: #444444;
+	outline: medium none;
+	text-decoration: none;
+}
+a:hover, #content .entry a {
+    color: #0299FF;
+    outline: 0 none;
+    text-decoration: none;
+}
+.postmetadata{
+	border-top:2px solid #666666;
+}
+#content .tags a, #content .categories a{
+	height:10px;
+	background-color:#333;
+	border-radius:3px;
+	color:white;
+	padding:0 13px 1px 13px;
+	line-height:25px;
+}
+.tags, .categories{
+	padding-bottom:10px;
+
+}
+
+
+/*******************************************************************************
+************************* T H U M B N A I L S **********************************
+********************************************************************************/
+.attachment-post-thumbnail{
+	float:left;
+	margin: 3px 5px 5px 0;	
+}
+
+/*******************************************************************************
+*************************** F O N T S ******************************************
+********************************************************************************/
+body,
+input,
+textarea,
+.page-title span,
+.pingback a.url {
+	font-family: Georgia, "Bitstream Charter", serif;
+}
+
+h3#comments-title,
+h3#reply-title,
+#access .menu,
+#access div.menu ul,
+#cancel-comment-reply-link,
+.form-allowed-tags,
+#site-info,
+#site-title,
+#wp-calendar,
+.comment-meta,
+.comment-body tr th,
+.comment-body thead th,
+.entry-content label,
+.entry-content tr th,
+.entry-content thead th,
+.entry-meta,
+.entry-title,
+.entry-utility,
+#respond label,
+.navigation,
+.page-title,
+.pingback p,
+.reply,
+.widget-title,
+.wp-caption-text,
+input[type=submit]
+{
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+code {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+/*******************************************************************************
+*********************** My shit *************************************************
+********************************************************************************/
+
+@charset "UTF-8";
+/* line 1, scss/reset.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 6, scss/reset.scss */
+a {
+  text-decoration: none; }
+
+/* Цвета */
+/*color*/
+/* Стили для постов и ленты */
+/* line 3, scss/post.scss */
+.post-header-image {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1; }
+
+/* line 10, scss/post.scss */
+.post-header-image img {
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.55); }
+
+/* line 16, scss/post.scss */
+h1#page_title {
+  font-family: "Lora";
+  background: #062C39;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 50px;
+  padding-top: 60px;
+  position: relative;
+  top: -35px; }
+
+/* line 28, scss/post.scss */
+.post-content {
+  padding: 0 30px; }
+
+@media screen and (max-width: 768px) {
+  /* line 33, scss/post.scss */
+  .post-header-title {
+    font-size: 14px;
+    padding: 20px 10px;
+    padding-top: 60px;
+    position: relative;
+    top: -35px; } }
+
+/* line 1, scss/feed.scss */
+.feed-item-flag {
+  color: #267491;
+  position: absolute;
+  top: -1px;
+  right: 20px; }
+
+/* line 8, scss/feed.scss */
+.feed-item-image {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 13, scss/feed.scss */
+.feed-item-image img {
+  height: 100px;
+  width: 70%;
+  object-fit: cover; }
+
+/* line 19, scss/feed.scss */
+.feed-item-title {
+  font-family: "Lora";
+  font-size: 18px;
+  color: #267491; }
+
+/* line 25, scss/feed.scss */
+.feed-item-link {
+  display: inline-block;
+  padding: 5px 30px;
+  margin-top: 20px;
+  background: #267491;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: background 0.8s;
+  /* Safari */
+  transition: background 0.8s; }
+  /* line 33, scss/feed.scss */
+  .feed-item-link:hover {
+    background: #14627f; }
+
+@media screen and (max-width: 800px) {
+  /* line 39, scss/feed.scss */
+  .feed-item-image img {
+    height: auto;
+    width: 60%; } }
+
+/* line 1, scss/menu.scss */
+.top-menu {
+  padding: 0 10%; }
+
+/* line 5, scss/menu.scss */
+.top-menu-item {
+  width: 100%;
+  text-align: center;
+  -webkit-transition: background 0.8s;
+  /* Safari */
+  transition: background 0.8s; }
+  /* line 9, scss/menu.scss */
+  .top-menu-item:hover {
+    background: #14627f; }
+
+/* line 14, scss/menu.scss */
+.top-menu a {
+  color: white;
+  display: inline-block;
+  margin-top: 17px; }
+
+/* line 20, scss/menu.scss */
+.top-menu-item-mobile {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  /* line 25, scss/menu.scss */
+  .top-menu-item {
+    display: none; }
+  /* line 28, scss/menu.scss */
+  .top-menu-item.visible {
+    display: block; }
+  /* line 31, scss/menu.scss */
+  .top-menu-item.logo.visible {
+    display: none; }
+  /* line 34, scss/menu.scss */
+  .top-menu-item-mobile {
+    display: block;
+    text-align: right; }
+  /* line 38, scss/menu.scss */
+  .top-menu-item-mobile.open {
+    text-align: center; }
+  /* line 41, scss/menu.scss */
+  .top-menu-item-mobile.desc {
+    color: white;
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+    top: 12px;
+    left: 10px; } }
+
+/* line 9, scss/styles.scss */
+body {
+  background: #8FAFA9;
+  font-family: "Roboto"; }
+
+/* line 14, scss/styles.scss */
+.top-menu {
+  background: #267491;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  z-index: 2;
+  position: relative; }
+
+/* line 24, scss/styles.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+/* line 31, scss/styles.scss */
+.post {
+  width: 70%;
+  background: #ECFFF8; }
+
+/* line 36, scss/styles.scss */
+.feed {
+  width: 28%; }
+
+/* line 40, scss/styles.scss */
+.feed-item {
+  background: #CAE9E0;
+  margin-bottom: 8px;
+  padding: 20px;
+  position: relative; }
+
+/* line 47, scss/styles.scss */
+.footer {
+  text-align: center;
+  color: #fff;
+  margin: 20px; }
+
+/* HERE ADAPTIVITY GOES */
+@media screen and (max-width: 768px) {
+  /* line 56, scss/styles.scss */
+  .wrapper {
+    flex-direction: column;
+    width: 100%; }
+  /* line 60, scss/styles.scss */
+  .post {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 65, scss/styles.scss */
+  .feed {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 71, scss/styles.scss */
+  .top-menu {
+    justify-content: flex-start;
+    flex-direction: column; } }

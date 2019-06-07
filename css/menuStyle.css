@@ -1,0 +1,156 @@
+ 
+/************************************************
+* Play with it at you own risk =)				*
+************************************************/
+
+/************************************************
+*	General stuff								*
+************************************************/
+
+#nav ul
+{
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+#nav li
+{
+
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background:none;
+  display: inline;
+  font-weight: bold;
+}
+
+#nav ul.sub-menu,
+#nav ul.children{
+  visibility: hidden;
+  z-index: 10;
+  
+  /*backgound of submenu when hover parent*/
+  background:none;
+  background-color: #F1F2F4;
+  
+  /*Here is some magic*/
+  position: absolute;
+  
+  /* makes the frame more pretty*/
+  padding: 1px;
+}
+
+
+
+#nav ul li:hover>ul.children,
+#nav ul li:hover>ul.sub-menu
+{
+  visibility: visible;
+  top: 100%;
+}
+
+#nav ul li:hover
+{
+  z-index: 10000;
+  white-space: normal;
+  
+}
+
+/*
+* if child ul has children 
+*/
+#nav ul.children li:hover>ul,
+#nav ul.sub-menu li:hover>ul
+{
+  top: 0;
+  left: 100%;
+  visibility: hidden;/*only one level*/
+}
+
+#nav ul:after, 
+#nav ul.sub-menu:after,
+#nav ul.children:after
+{
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+
+/************************************************
+*	Menu structure								*
+************************************************/
+#nav {
+ 	z-index: 100;
+}
+
+#nav ul
+{
+  
+}
+
+
+#nav a:hover
+{
+  /*background-position: left -30px;*/
+}
+
+#nav li:hover a 
+{
+  /*background-position: left -30px;*/ 
+}
+
+
+#nav a.active 
+{
+  /*background-position: left -60px;*/
+}
+
+/************************************************
+*	Menu separator								*
+************************************************/
+#nav .separator
+{
+  display: block;
+  width: 1px;
+}
+
+/************************************************
+*	sub-menu item								*
+************************************************/
+#nav ul.sub-menu li,
+#nav ul.children li{
+	clear: both;
+	width: 200px;
+	float:left;
+	text-align: left;
+}
+
+#nav ul.sub-menu a,
+#nav ul.children a{
+  display: inline;
+  float: none;
+  letter-spacing: 1px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+
+
+#nav ul.sub-menu li.current-menu-item,
+#nav ul.sub-menu li.current_page_item,
+#nav ul.sub-menu li:hover,
+#nav ul.children li.current-menu-item,
+#nav ul.children li.current_page_item,
+#nav ul.children li:hover{
+	background-image:none;
+}
+

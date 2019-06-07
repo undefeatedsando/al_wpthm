@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: webfish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 00:28+1000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tobias Nyholm <tobias@webfish.se>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../sidebar.php:43
+msgid "Pages"
+msgstr ""
+
+#: ../sidebar.php:50
+msgid "Archives"
+msgstr ""
+
+#: ../sidebar.php:57
+msgid "Meta"
+msgstr ""
+
+#: ../functions.php:41
+msgid "Just a simple sidebar"
+msgstr ""
+
+#: ../functions.php:47
+msgid "Main menu"
+msgstr ""
+
+#: ../functions.php:83
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:86
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:93
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:93
+#: ../functions.php:110
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:110
+msgid "Pingback:"
+msgstr ""
+
+#: ../base-functions.php:182
+msgid "Webfish custom header"
+msgstr ""
+
+#: ../base-functions.php:199
+#: ../base-functions.php:247
+msgid "Saved!"
+msgstr ""
+
+#: ../base-functions.php:202
+#: ../base-functions.php:250
+msgid "Wrong security code. Please resend the form."
+msgstr ""
+
+#: ../base-functions.php:217
+msgid "Select a Color"
+msgstr ""
+
+#: ../base-functions.php:219
+#: ../base-functions.php:280
+#: ../base-functions.php:298
+#: ../base-functions.php:310
+msgid "Save"
+msgstr ""
+
+#: ../base-functions.php:259
+msgid "General options"
+msgstr ""
+
+#: ../base-functions.php:264
+msgid "Show logo in footer"
+msgstr ""
+
+#: ../base-functions.php:265
+#: ../base-functions.php:270
+#: ../base-functions.php:277
+#: ../base-functions.php:285
+#: ../base-functions.php:290
+#: ../base-functions.php:295
+#: ../base-functions.php:302
+#: ../base-functions.php:307
+msgid "Yes"
+msgstr ""
+
+#: ../base-functions.php:266
+#: ../base-functions.php:271
+#: ../base-functions.php:278
+#: ../base-functions.php:286
+#: ../base-functions.php:291
+#: ../base-functions.php:296
+#: ../base-functions.php:303
+#: ../base-functions.php:308
+msgid "No"
+msgstr ""
+
+#: ../base-functions.php:269
+msgid "Show single meta data"
+msgstr ""
+
+#: ../base-functions.php:276
+msgid "Show authors"
+msgstr ""
+
+#: ../base-functions.php:283
+msgid "Thumbnails"
+msgstr ""
+
+#: ../base-functions.php:284
+msgid "Show on index page"
+msgstr ""
+
+#: ../base-functions.php:289
+msgid "Show on single"
+msgstr ""
+
+#: ../base-functions.php:294
+msgid "Show on page"
+msgstr ""
+
+#: ../base-functions.php:300
+msgid "Comments"
+msgstr ""
+
+#: ../base-functions.php:301
+msgid "Show allowed tags"
+msgstr ""
+
+#: ../base-functions.php:306
+msgid "Show \"Comments are closed\""
+msgstr ""
+
+#: ../index.php:20
+msgid "by"
+msgstr ""
+
+#: ../index.php:29
+#: ../single.php:27
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: ../index.php:32
+#: ../search.php:28
+#: ../archive.php:53
+msgid "No Comments &#187;"
+msgstr ""
+
+#: ../index.php:32
+#: ../search.php:28
+#: ../archive.php:53
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: ../index.php:32
+#: ../search.php:28
+#: ../archive.php:53
+msgid "% Comments &#187;"
+msgstr ""
+
+#: ../index.php:32
+#: ../search.php:28
+#: ../archive.php:54
+#: ../attachment.php:58
+#: ../attachment.php:106
+msgid "Edit"
+msgstr ""
+
+#: ../index.php:38
+#: ../search.php:17
+#: ../archive.php:39
+#: ../archive.php:62
+msgid "&laquo; Newer Entries"
+msgstr ""
+
+#: ../index.php:39
+#: ../search.php:18
+#: ../archive.php:40
+#: ../archive.php:63
+msgid "Older Entries &raquo;"
+msgstr ""
+
+#: ../index.php:45
+msgid "Not Found"
+msgstr ""
+
+#: ../index.php:46
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../404.php:16
+#: ../page.php:31
+msgid "Page not found"
+msgstr ""
+
+#: ../404.php:18
+#: ../page.php:33
+msgid "We could not find the page you are looking for. We have searched in more than 404 places..."
+msgstr ""
+
+#: ../search.php:14
+msgid "Search Results"
+msgstr ""
+
+#: ../search.php:34
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../search.php:35
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../search.php:40
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: ../image.php:54
+msgid "Edit this entry."
+msgstr ""
+
+#: ../page.php:22
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: ../page.php:24
+#: ../single.php:29
+#: ../attachment.php:100
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:28
+#: ../single.php:65
+#: ../single.php:69
+msgid "Edit this entry"
+msgstr ""
+
+#: ../archive.php:23
+#: ../archive.php:25
+#: ../archive.php:27
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:29
+msgid "Author Archives"
+msgstr ""
+
+#: ../archive.php:31
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:68
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: ../archive.php:70
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: ../archive.php:73
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: ../archive.php:75
+msgid "No posts found."
+msgstr ""
+
+#: ../comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:31
+#: ../comments.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:32
+#: ../comments.php:45
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:67
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:69
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Comment"
+msgstr ""
+
+#: ../single.php:40
+#, php-format
+msgid "This entry was posted on %s at %s."
+msgstr ""
+
+#: ../single.php:43
+#, php-format
+msgid "You can follow any responses to this entry through the %s feed."
+msgstr ""
+
+#: ../single.php:48
+#, php-format
+msgid "You can %s leave a response%s, or %strackback%s from your own site."
+msgstr ""
+
+#: ../single.php:54
+#, php-format
+msgid "Responses are currently closed, but you can %strackback%s from your own site."
+msgstr ""
+
+#: ../single.php:59
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: ../single.php:63
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: ../attachment.php:17
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:19
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: ../attachment.php:27
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: ../attachment.php:38
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: ../attachment.php:48
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: ../attachment.php:51
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../attachment.php:99
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
